@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+     <style name="typo_catch_the_pig" parent="@android:style/TextAppearance.Medium">
+         <item name="android:textColor">#EEE</item>
+         <item name="android:textSize">25sp</item> 
+         <item name="android:textStyle">bold</item>
+         <item name="android:typeface">sans</item>
+         <item name="android:shadowColor">#333</item> 
+         <item name="android:layout_height">wrap_content</item>  
+         <item name="android:layout_marginTop">10dp</item> 
+     </style>
+     <style name="typo_catch_the_pig.centered"> 
+          <item name="android:gravity">center_vertical|center_horizontal</item> 
+          <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+     </style>
+</resources>

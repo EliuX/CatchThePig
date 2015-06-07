@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Captura al puerco</string>
+    <string name="new_game">Juego nuevo</string>
+    <string name="msg_victory_pig">¡El puerco se escapó!</string>
+    <string name="msg_victory_bird">¡Capturaron al puerco!</string>
+    <string name="game_preferences_title">Juega esto como quieras</string>
+    <string name="single_game">Jugar</string>
+    <string name="multiplayer_game">Modo multijugador</string>
+    <string name="game_preferences">Configuración</string>
+    <string name="credits">Créditos</string>
+    <string name="exit">Salir</string>
+    <string name="pig">Puerco</string>
+    <string name="bird">Pajaro</string>
+    <string name="difficulty">Dificultad</string>
+    <string name="difficulty_description">Cuan eficiente jugará la PC contra usted</string>
+    <string name="difficulty_dialog_title">Introduzca un nivel de dificultad(1-5)</string>
+    <string name="anyone_plays">Jugar cualquier ficha</string>
+    <string name="anyone_plays_description">¿El jugador humano podrá mover cualquier ficha?</string>
+    <string name="anyone_plays_dialog_title">Si mueves una parte del tablero la PC tratará de jugar en la otra</string>
+    <string name="allow_sounds">Sonidos</string>
+    <string name="allow_sounds_description">¿Desea escuchar música y efectos sonoros?</string>
+    <string name="author">Eliecer Hdz Garbey (eliecerhdz@gmail.com)</string>
+
+</resources>
