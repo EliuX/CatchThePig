@@ -10,6 +10,13 @@ You will see a simple game alike to the Cat vs the mouse, so it will have some t
 
 I began the project using Eclipse but later i runned it in Android Studio with no issues.
 
+Create the keystore:
+
+~~~
+    echo y | keytool -genkeypair -dname "cn=CatchThePig, ou=CatchThePig, o=EliuX, c=EC" -alias business -keypass kpi135 -keystore catchthepig.keystore -storepass abc123 -validity 9999
+~~~
+
+
 ## API Reference
 
 Just Java and the Android SDK.
