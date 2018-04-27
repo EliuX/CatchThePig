@@ -1,6 +1,7 @@
 ## Synopsis
 
-In 2013 I started learning how to develop Android applications. Then for testing my skills i decided to do this simple Android game, using none third party libraries, just what came with the Android SDK at the moment. Please check out the [source code][https://github.com/EliuX/CatchThePig].
+In 2013 I started learning how to develop Android applications. Then for testing my skills i decided to do this simple Android game, using none third party libraries, just what came with the Android SDK at the moment. Please check out the 
+<a href="https://github.com/EliuX/CatchThePig">source code</a>.
 
 ## Motivation
 
