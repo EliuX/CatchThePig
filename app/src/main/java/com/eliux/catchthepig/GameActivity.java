@@ -26,7 +26,6 @@ public class GameActivity extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);  
 		layout = new LinearLayout(this);
-		layout.setId(R.layout.game_board);
 		if(savedInstanceState==null){ 
 			mGView = new GameBoardView(this, null); 
 		}else{

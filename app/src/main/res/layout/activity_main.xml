@@ -16,7 +16,8 @@
         android:layout_centerVertical="false"
         android:layout_marginBottom="@dimen/activity_horizontal_margin"
         android:layout_marginLeft="@dimen/activity_vertical_margin"
-        android:src="@drawable/big_bird" />
+        android:src="@drawable/big_bird"
+        android:layout_marginStart="@dimen/activity_vertical_margin" />
 
     <ImageView
         android:id="@+id/MainPig"
@@ -28,7 +29,9 @@
         android:layout_marginBottom="@dimen/activity_horizontal_margin"
         android:layout_marginLeft="@dimen/activity_vertical_margin"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:src="@drawable/pig_hidden" />
+        android:src="@drawable/pig_hidden"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_alignParentEnd="true" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -43,28 +46,18 @@
             style="@style/typo_catch_the_pig"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/main_btn_rect" 
-            android:layout_centerHorizontal="true" 
+            android:background="@drawable/main_btn_rect"
+            android:layout_centerHorizontal="true"
             android:text="@string/single_game" />
-
-        <Button
-            android:id="@+id/BtnMultiplayer"
-            style="@style/typo_catch_the_pig"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/BtnSingleGame"
-            android:layout_centerHorizontal="true" 
-            android:background="@drawable/main_btn_rect" 
-            android:text="@string/multiplayer_game" />
 
         <Button
             android:id="@+id/BtnPreferences"
             style="@style/typo_catch_the_pig"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/BtnMultiplayer"
+            android:layout_below="@id/BtnSingleGame"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/main_btn_rect" 
+            android:background="@drawable/main_btn_rect"
             android:text="@string/game_preferences" />
 
         <Button

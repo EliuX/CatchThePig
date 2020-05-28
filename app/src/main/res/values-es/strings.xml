@@ -22,5 +22,6 @@
     <string name="allow_sounds">Sonidos</string>
     <string name="allow_sounds_description">¿Desea escuchar música y efectos sonoros?</string>
     <string name="author">Eliecer Hdz Garbey (eliecerhdz@gmail.com)</string>
+    <string name="credits_content_txt">This small game was made with educational purposes by Eliecer Hernandez Garbey.</string>
 
 </resources>

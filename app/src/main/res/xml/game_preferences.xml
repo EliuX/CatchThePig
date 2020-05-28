@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
-    <EditTextPreference android:key="level" android:title="@string/difficulty" android:defaultValue="3"  android:dialogMessage="@string/difficulty_dialog_title" android:shouldDisableView="true" android:summary="@string/difficulty_description"/>
+    <EditTextPreference android:key="level" android:inputType="number" android:selectable="true" android:title="@string/difficulty" android:defaultValue="3"  android:dialogMessage="@string/difficulty_dialog_title" android:shouldDisableView="true" android:summary="@string/difficulty_description"/>
     <CheckBoxPreference android:key="anyone_plays" android:title="@string/anyone_plays" android:summary="@string/anyone_plays_description"/>
     <CheckBoxPreference android:key="allow_sounds" android:summary="@string/allow_sounds_description" android:title="@string/allow_sounds" android:defaultValue="true"/> 
 </PreferenceScreen>

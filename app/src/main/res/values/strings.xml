@@ -15,11 +15,12 @@
     <string name="bird">Bird</string>
     <string name="difficulty">Difficulty</string>
     <string name="difficulty_description">How hard the Computer AI will play against you</string>
-    <string name="difficulty_dialog_title">Enter some difficulty level between (1-5)</string>
+    <string name="difficulty_dialog_title">Enter some difficulty level between (1-7)</string>
     <string name="anyone_plays">Play any side</string>
     <string name="anyone_plays_description">Human player may move any side of the board?</string>
     <string name="anyone_plays_dialog_title">If you moves any side of the board the PC will try to moves the other</string>
     <string name="allow_sounds">Sounds</string>
     <string name="allow_sounds_description">Let play music and sound effects?</string>
-	<string name="author">Eliecer Hdz Garbey (eliecerhdz@gmail.com)</string>
+    <string name="author">Eliecer Hdz Garbey (eliecerhdz@gmail.com)</string>
+    <string name="credits_content_txt">This small game was made with educational purposes by Eliecer Hernandez Garbey.</string>
 </resources>

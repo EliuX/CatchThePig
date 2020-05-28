@@ -14,13 +14,14 @@ public class MainActivity extends Activity implements OnClickListener {
 	//Activities handlers
 	static final public int SETTINGS_ACTIVITY = 0;
 	static final public int GAME_ACTIVITY = 1;
+	static final public int CREDITS_ACTIVITY = 2;
 	//Sounds'ids
 	static final protected int MAIN_SONG = 1;
 	static final protected int MAIN_BTN_CLICKED = 2;
 	// Intents of other windows
-	Intent iGame, iPreferences; 
+	Intent iGame, iPreferences, iCredits;
 	//Buttons
-	Button btnSingleGame, btnPreferences, btnExit;	
+	Button btnSingleGame, btnPreferences, btnExit, btnCredits;
 	//Sounds
 	MediaPlayer[] mMainSound = new MediaPlayer[2]; 	//Having supposed it may be more than one song
 	@Override
@@ -30,11 +31,13 @@ public class MainActivity extends Activity implements OnClickListener {
 		mMainSound[MAIN_SONG].setAudioStreamType(AudioManager.STREAM_MUSIC);
 		mMainSound[MAIN_SONG].setLooping(true);   
 		setContentView(R.layout.activity_main);
-		btnSingleGame = (Button) findViewById(R.id.BtnSingleGame);
-		btnPreferences = (Button) findViewById(R.id.BtnPreferences); 
-		btnExit = (Button) findViewById(R.id.btnExit); 
+		btnSingleGame = findViewById(R.id.BtnSingleGame);
+		btnPreferences = findViewById(R.id.BtnPreferences);
+		btnCredits = findViewById(R.id.BtnCredits);
+		btnExit = findViewById(R.id.btnExit);
 		btnSingleGame.setOnClickListener(this);
 		btnPreferences.setOnClickListener(this);
+		btnCredits.setOnClickListener(this);
 		btnExit.setOnClickListener(this);   
 	} 
 	
@@ -83,6 +86,9 @@ public class MainActivity extends Activity implements OnClickListener {
 		case R.id.btnExit:  
 			finish();				//	Closes the app!
 			break;
+		case R.id.BtnCredits:
+			showCredits();
+			break;
 		default:
 		} 
 	}
@@ -97,5 +103,11 @@ public class MainActivity extends Activity implements OnClickListener {
 		}
 		startActivityForResult(iPreferences, SETTINGS_ACTIVITY);
 	} 
-	 
+
+	void showCredits() {
+		if(iCredits == null) {
+			iCredits = new Intent(MainActivity.this, CreditsActivity.class);
+		}
+		startActivityForResult(iCredits, CREDITS_ACTIVITY);
+	}
 }

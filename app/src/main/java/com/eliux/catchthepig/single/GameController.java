@@ -76,7 +76,7 @@ public class GameController{
 				return mView.mBirds[getIndex(x,y)];
 			}
 		}catch(Exception e){
-			Log.e("GameController", "Error obtaining Game Caracter at the position ("+x+","+y+")");
+			Log.e("GameController", "Error obtaining Game Character at the position ("+x+","+y+")");
 		}
 		return null;
 	}
